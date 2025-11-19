@@ -1,0 +1,27 @@
+  "external": {
+        "Traffic rule": ["Traffic signal", "warning signs"],
+        "Lane line": ["Solid line", "Dotted line"],
+        "Intersection": ["Crossroads", "Zebra crossing"],
+        "Weather category": ["Rainy day", "Foggy day"],
+        "Static obstacle": ["Roadblock", "Waterlog"],
+        "Dynamic obstacle": [
+            "Pedestrians cross",
+            "Vehicle slow",
+            "Vehicle changing lane"
+        ]
+    },
+   "cabin": {
+        "Emotion": ["Peace", "Anxiety", "Anger", "Weariness", "Happiness"],
+        "Attention": ["Distracted", "Exhaustion", "Looking Around"],
+        "Driver operation": [
+            "Hands off wheel",
+            "Using phone",
+            "Calling",
+            "Smoking"
+        ],
+        "Cockpit environment": [
+            "No seat belt",
+            "Seat belt on",
+            "Mirror dirty"
+        ]
+    }
