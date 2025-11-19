@@ -30,7 +30,7 @@ pip install openai transformers
 ```
 
 # Benchmark
-Our benchmark can be available at [here](https://pan.baidu.com/s/1taaHuE4yo_mEcd38yrGLHQ?pwd=3560). 
+Our benchmark can be available at [here](https://pan.baidu.com/s/1ER6buToR4rrEG5e4pHxdrQ?pwd=zivt). 
 
 # DSVLM
 Our checkpoint can be available at [here](https://huggingface.co/mengxxianhhui/DSVLM). 
