@@ -14,7 +14,7 @@ Vision-Language Models (VLMs) hold potential for autonomous driving, but their s
 
 
 # Overview
-This is the official code implementation of DSBench.
+This is the official code implementation of DSBench [Paper](https://arxiv.org/abs/2511.14592). 
 <div align="center">
 <img align="center" src='images/details.png' width='100%'> </img>
 </div>
@@ -33,7 +33,7 @@ pip install openai transformers
 Our benchmark can be available at [here](https://pan.baidu.com/s/1taaHuE4yo_mEcd38yrGLHQ?pwd=3560). 
 
 # DSVLM
-Our checkpoint can be available at [here](https://pan.baidu.com/s/1taaHuE4yo_mEcd38yrGLHQ?pwd=3560). 
+Our checkpoint can be available at [here](https://huggingface.co/mengxxianhhui/DSVLM). 
 
 # Inference
 Our inference code can be found in the "inference" folder.
