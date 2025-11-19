@@ -14,7 +14,7 @@ Vision-Language Models (VLMs) hold potential for autonomous driving, but their s
 
 
 # Overview
-This is the official code implementation of DSBench [Paper](https://arxiv.org/abs/2511.14592). 
+This is the official code implementation of DSBench [(Paper)](https://arxiv.org/abs/2511.14592). 
 <div align="center">
 <img align="center" src='images/details.png' width='100%'> </img>
 </div>
@@ -52,3 +52,9 @@ If using a local deployment approach, run:
 ```
 python inference/inference_close.py
 ``` 
+
+# Evaluation
+Evaluating the results:
+```
+bash evaluation/metrics.sh
+```
