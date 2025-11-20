@@ -7,35 +7,31 @@ A Comprehensive Benchmark for Evaluating External and In-Cabin Risks
 <img align="center" src='images/intro.png' width='100%'> </img>
 </p>
 
+<h5 align="center">
 
- 
-Vision-Language Models (VLMs) hold potential for autonomous driving, but their suitability for safety-critical scenarios remains largely unexplored. To address this, we introduce DSBench, the first comprehensive benchmark that evaluates both external environmental risks and in-cabin driving behaviors across 10 key categories and 28 subcategories. Our evaluations of existing VLMs show significant performance drops under complex scenarios, emphasizing the need for improvement. To tackle this, we developed a large dataset of 98K instances, demonstrating that fine-tuning with it enhances safety performance. Toolkit, code, and model checkpoints will be made publicly available.
+[![License](https://img.shields.io/badge/License-Apache%202.0-9BDFDF)](https://github.com/linglingxiansen/SpatialSky/blob/main/LICENSE) 
+[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoint-FBD49F.svg)](https://huggingface.co/mengxxianhhui/DSVLM)
+[![arXiv](https://img.shields.io/badge/Arxiv-2511.13269-E69191.svg?logo=arXiv)](https://arxiv.org/abs/2511.14592) 
 
 
-
-# Overview
-This is the official code implementation of DSBench [(Paper)](https://arxiv.org/abs/2511.14592). 
-<div align="center">
-<img align="center" src='images/details.png' width='100%'> </img>
-</div>
-
-  
-
-# Installation
+# 🚀 Getting Start
+## ⚙️ Installation
 ```
+git clone https://github.com/mengxh20/DSBench.git
 conda create -n dsbench python=3.12 -y
 conda activate dsbench
 pip install torch torchvision torchaudio 
 pip install openai transformers
 ```
-
-# Benchmark
+## 🚗 Benchmark
 Our benchmark can be available at [here](https://pan.baidu.com/s/1ER6buToR4rrEG5e4pHxdrQ?pwd=zivt). 
 
-# DSVLM
-Our checkpoint can be available at [here](https://huggingface.co/mengxxianhhui/DSVLM). 
+## ⬇️ Download Ckpt
 
-# Inference
+Download our Sky-VLM model from [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoint-FBD49F.svg)](https://huggingface.co/mengxxianhhui/DSVLM).
+
+
+## 🔍 Inference
 Our inference code can be found in the "inference" folder.
 
 For commercial models run:
@@ -53,8 +49,26 @@ If using a local deployment approach, run:
 python inference/inference_close.py
 ``` 
 
-# Evaluation
+## 🤖 Evaluation
 Evaluating the results:
 ```
 bash evaluation/metrics.sh
+```
+
+## 🔥 Training
+The training dataset and code are coming soon...
+
+
+## Citation
+If this work is helpful, please kindly cite as:
+```
+@misc{meng2025vlmautonomousdrivingsafetyready,
+      title={Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for Evaluating External and In-Cabin Risks}, 
+      author={Xianhui Meng and Yuchen Zhang and Zhijian Huang and Zheng Lu and Ziling Ji and Yaoyao Yin and Hongyuan Zhang and Guangfeng Jiang and Yandan Lin and Long Chen and Hangjun Ye and Li Zhang and Jun Liu and Xiaoshuai Hao},
+      year={2025},
+      eprint={2511.14592},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2511.14592}, 
+}
 ```
