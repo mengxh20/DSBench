@@ -28,7 +28,7 @@ Our benchmark can be available at [here](https://pan.baidu.com/s/1ER6buToR4rrEG5
 
 ## ⬇️ Download Ckpt
 
-Download our Sky-VLM model from [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoint-FBD49F.svg)](https://huggingface.co/mengxxianhhui/DSVLM).
+Download our DSVLM model from [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoint-FBD49F.svg)](https://huggingface.co/mengxxianhhui/DSVLM).
 
 
 ## 🔍 Inference
