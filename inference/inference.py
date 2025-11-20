@@ -11,8 +11,8 @@ from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 # =====================================================
 # 基础配置
 # =====================================================
-input_path = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/ADqa_output_benchamrk_rewritten_textonly_belt.json"
-output_dir = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference"
+input_path = "/dataset_path/DSBench_QAs.json"
+output_dir = "./model_inference"
 os.makedirs(output_dir, exist_ok=True)
 
 # 需要推理的模型路径

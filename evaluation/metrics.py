@@ -22,9 +22,9 @@ pro_number = args.promptnumber
 API_KEY = "sk-xxx"
 API_BASE_URL = "xxx"
 # MODEL_NAME = "Qwen2.5-VL-7B-Instruct"  # 注意：这个变量定义了，但在API调用中未使用
-INPUT_FILE_PATH = f"/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference/final_inferenced/{MODEL_NAME}.json"
-out_dir = f"/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference/metrics_result{pro_number}" # resultX代表使用第X个prompt
-PROMPT_FILE_PATH = f"/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/mxh_codes/prompt{pro_number}.txt"
+INPUT_FILE_PATH = f"./model_inference/final_inferenced/{MODEL_NAME}.json"
+out_dir = f"./metrics_results/metrics_result{pro_number}" # resultX代表使用第X个prompt
+PROMPT_FILE_PATH = f"./evaluation/prompt{pro_number}.txt"
 os.makedirs(out_dir, exist_ok=True)
 output_file_path = f"{out_dir}/{MODEL_NAME}.txt"
 # 检查文件是否已存在

@@ -100,7 +100,7 @@ def main(model_name, input_path, output_dir, num_workers=NUM_WORKERS):
 # ----------------------------
 if __name__ == "__main__":
     model_name = "llava-hf/LLaVA-NeXT-Video-7B-hf" 
-    input_path = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/ADqa_output_benchamrk_rewritten_textonly_belt.json"
-    output_dir = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference"
+    input_path = "/dataset_path/DSBench_QAs.json"
+    output_dir = "./model_inference"
 
     main(model_name, input_path, output_dir)

@@ -27,7 +27,7 @@ API_BASE_URL = "xxx"
 session = None
 
 # 输入文件路径
-input_file = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/ADqa_output_benchamrk_rewritten_textonly_belt.json"
+input_file = "/dataset_path/DSBench_QAs.json"
 
 # =========================================================
 # 自动生成输出文件名
@@ -40,7 +40,7 @@ input_file = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/ADqa_output_be
 task_name = os.path.basename(os.path.dirname(input_file))
 
 # 自动创建输出目录
-output_dir = "/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference"
+output_dir = "./model_inference"
 os.makedirs(output_dir, exist_ok=True)
 
 # # 拼接输出文件名

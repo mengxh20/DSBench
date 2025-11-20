@@ -41,7 +41,7 @@ class Scorer():
 def main():
     # 1. 设置命令行参数解析器，用于接收文件路径
     parser = argparse.ArgumentParser(description="Evaluate model predictions from a JSON or JSONL file.")
-    parser.add_argument('-f', '--file',default="/e2e-data/evad-tech-vla/zhangyuchen/ADqa_generation/model_inference/final_inferenced/DriveMMO_merged.json" ,type=str, help='Path to the input data file (must be .json or .jsonl format).')
+    parser.add_argument('-f', '--file',default="./model_inference/final_inferenced/DriveMMO_merged.json" ,type=str, help='Path to the input data file (must be .json or .jsonl format).')
     args = parser.parse_args()
 
     # 2. 从指定的文件路径加载数据
