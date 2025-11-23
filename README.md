@@ -62,13 +62,10 @@ The training dataset and code are coming soon...
 ## Citation
 If this work is helpful, please kindly cite as:
 ```
-@misc{meng2025vlmautonomousdrivingsafetyready,
-      title={Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for Evaluating External and In-Cabin Risks}, 
-      author={Xianhui Meng and Yuchen Zhang and Zhijian Huang and Zheng Lu and Ziling Ji and Yaoyao Yin and Hongyuan Zhang and Guangfeng Jiang and Yandan Lin and Long Chen and Hangjun Ye and Li Zhang and Jun Liu and Xiaoshuai Hao},
-      year={2025},
-      eprint={2511.14592},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2511.14592}, 
+@article{meng2025your,
+  title={Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for Evaluating External and In-Cabin Risks},
+  author={Meng, Xianhui and Zhang, Yuchen and Huang, Zhijian and Lu, Zheng and Ji, Ziling and Yin, Yaoyao and Zhang, Hongyuan and Jiang, Guangfeng and Lin, Yandan and Chen, Long and others},
+  journal={arXiv preprint arXiv:2511.14592},
+  year={2025}
 }
 ```
