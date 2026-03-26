@@ -1,6 +1,5 @@
 <h1 align="center">
-Is Your VLM for Autonomous Driving Safety-Ready? 
-A Comprehensive Benchmark for Evaluating External and In-Cabin Risks
+DSBench: A Comprehensive Benchmark for Evaluating External and In-Cabin Risks
 </h1>
 
 <p align='center'>
