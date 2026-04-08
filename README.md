@@ -54,8 +54,6 @@ Evaluating the results:
 bash evaluation/metrics.sh
 ```
 
-## 🔥 Training
-The training dataset and code are coming soon...
 
 
 ## Citation
