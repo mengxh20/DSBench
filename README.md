@@ -23,7 +23,7 @@ pip install torch torchvision torchaudio
 pip install openai transformers
 ```
 ## 🚗 Benchmark
-Our benchmark can be available at [here](https://pan.baidu.com/s/1ER6buToR4rrEG5e4pHxdrQ?pwd=zivt). 
+Our benchmark can be available at [here](https://pan.baidu.com/s/1aVcbf4ldmE9hPX7u2Pp-qw?pwd=phki). 
 
 ## ⬇️ Download Ckpt
 
